@@ -1,0 +1,29 @@
+$dark-cyan: hsl(185, 75%, 39%);
+$dark-blue: hsl(229, 23%, 23%);
+$gray-blue: hsl(227, 10%, 46%);
+$dark-gray: hsl(0, 0%, 59%);
+
+$font-stack: "Kumbh Sans", sans-serif;
+$fonts: 18px;
+
+body {
+  background-color: $dark-cyan;
+  background-image: url("/images/bg-pattern-top.svg"),
+    url("/images/bg-pattern-bottom.svg");
+  background-position: bottom 250px left -250px, top 350px right -250px;
+  background-repeat: no-repeat;
+}
+
+.card {
+  max-width: 360px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: white;
+  font-family: $font-stack;
+}
+
+.stats,
+.profile {
+  display: flex;
+  justify-content: center;
+}
