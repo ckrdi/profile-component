@@ -9,7 +9,8 @@
 body {
   background-color: $dark-cyan;
   background-image: $top-pattern, $bottom-pattern;
-  background-position: top -650px left -750px, top 300px right -720px;
+  background-position: right 50vw bottom 40vh, left 46vw top 54vh;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
